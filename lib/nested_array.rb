@@ -23,10 +23,8 @@ def assembled_matrix [
 end
 
 
-def sorted_matrix [
-  ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
-  ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
-  ]
+def sorted_matrix 
+  
 end
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
