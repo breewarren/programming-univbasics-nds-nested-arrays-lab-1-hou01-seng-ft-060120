@@ -22,8 +22,7 @@ def assembled_matrix [
     ]
 end
 
-def sorted_matrix
-  [
+def sorted_matrix [
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
     ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
     ]
