@@ -23,8 +23,12 @@ def assembled_matrix [
 end
 
 CONVENTIONAL_PRODUCE_SORTED = ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
-ORGANIC_PRODUCE_SORTED = 
+
+ORGANIC_PRODUCE_SORTED = ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
+
 def sorted_matrix [
+  
+  
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes",  "Asparagus"]
     
