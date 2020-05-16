@@ -22,11 +22,12 @@ def assembled_matrix [
     ]
 end
 
-def sorted_matrix
-  [
+CONVENTIONAL_PRODUCE_SORTED = ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
+ORGANIC_PRODUCE_SORTED = 
+def sorted_matrix [
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
-    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
-    ]
+    ["Strawberries", "Potatoes", "Grapes", "Avocadoes",  "Asparagus"]
+    
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
