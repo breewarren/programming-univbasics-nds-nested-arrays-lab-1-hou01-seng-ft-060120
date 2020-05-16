@@ -16,7 +16,7 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
-def assembled_matrix
+def assembled_matrix (CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE)
   assembled_matrix = [
     CONVENTIONAL_PRODUCE], [ORGANIC_PRODUCE]
   # Build an array that contains both of the above arrays
