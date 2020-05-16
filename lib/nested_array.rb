@@ -31,8 +31,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix[0][1]
-  matrix_lookup
+  
 end
 
  # Given any matrix (array of arrays), a row index and a column index, 
