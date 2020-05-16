@@ -22,20 +22,16 @@ def assembled_matrix [
     ]
 end
 
-CONVENTIONAL_PRODUCE_SORTED = ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
-
-ORGANIC_PRODUCE_SORTED = ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
 
 def sorted_matrix [
-  
-  
-    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
-    ["Strawberries", "Potatoes", "Grapes", "Avocadoes",  "Asparagus"]
-    
+  ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
+  ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
+  ]
+end
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-end
+
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
