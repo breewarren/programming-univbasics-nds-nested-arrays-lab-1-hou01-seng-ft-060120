@@ -23,22 +23,19 @@ def assembled_matrix
     ]
 end
 
-
 def sorted_matrix 
   [
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
     ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
   ]
 end
-  # Using Array literal syntax only, build another nested array # that 
-  # uses the arrays of conventional and organic produce as # before.
-  # However, this time, sort each internal array alphabetically by the first character
-
 
 def matrix_lookup(matrix, row, column)
-  # Given any matrix (array of arrays), a row index and a column index, 
-  # Return the matrix's content at that row and and column
+  matrix_lookup[row][column]
 end
+
+ # Given any matrix (array of arrays), a row index and a column index, 
+  # Return the matrix's content at that row and and column
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
