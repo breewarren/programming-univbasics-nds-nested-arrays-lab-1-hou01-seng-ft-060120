@@ -25,6 +25,10 @@ end
 
 
 def sorted_matrix 
+  [
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
+  ]
   
 end
   # Using Array literal syntax only, build another nested array # that 
